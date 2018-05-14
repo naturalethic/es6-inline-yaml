@@ -8,7 +8,7 @@
 	"injectionSelector": "L:source.js -comment -string, L:source.jsx -comment -string,  L:source.js.jsx -comment -string, L:source.ts -comment -string, L:source.tsx -comment -string",
 	"patterns": [
 		{
-			"begin": "(\\s?\\/?\\*?\\s?(yaml)\\s?\\*?\\/?\\s?)(`)",
+			"begin": "(\\s?\\/?\\*?\\s?(schema\\(|yaml)\\s?\\*?\\/?\\s?)(`)",
 			"end": "(`)",
 			"patterns": [
 				{

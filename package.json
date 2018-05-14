@@ -3,7 +3,7 @@
   "displayName": "es6-string-yaml",
   "description": "Highlight yaml in es6 template strings",
   "publisher": "naturalethic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.19.0"
   },
