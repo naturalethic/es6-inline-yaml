@@ -3,7 +3,7 @@
   "displayName": "es6-string-yaml",
   "description": "Highlight yaml in es6 template strings",
   "publisher": "naturalethic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.19.0"
   },
@@ -21,14 +21,7 @@
     ],
     "grammars": [
       {
-        "injectTo": [
-          "source.js",
-          "source.js.jsx",
-          "source.jsx",
-          "source.ts",
-          "source.tsx",
-          "text.html.basic"
-        ],
+        "injectTo": ["source.js", "source.jsx", "source.ts", "source.tsx"],
         "scopeName": "inline.es6-yaml",
         "path": "./syntaxes/es6-inline-yaml.json",
         "language": "es6-string-yaml"

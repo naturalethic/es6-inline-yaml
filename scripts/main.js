@@ -1,14 +1,12 @@
-'use strict';
+'use strict'
 
 var vscode = require('vscode')
 
-function activate(context) {
-}
+function activate(context) {}
 
-function deactivate() {
-}
+function deactivate() {}
 
 module.exports = {
   activate: activate,
-  deactivate: deactivate
+  deactivate: deactivate,
 }
